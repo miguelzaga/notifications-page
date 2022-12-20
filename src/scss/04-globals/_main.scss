@@ -1,0 +1,9 @@
+@use "./../01-abstracts/" as *;
+
+.main {
+  max-width: 730px;
+  margin: auto;
+  background-color: $white;
+  padding: 24px 16px 29px;
+}
+
