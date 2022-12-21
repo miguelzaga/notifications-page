@@ -1,5 +1,7 @@
 import { useState } from "react";
 
+import Avatar from "/src/assets/images/avatar-mark-webber.webp";
+
 function App() {
   return (
     <main className="main">
@@ -16,8 +18,17 @@ function App() {
       <ul className="notifications">
           {/* TODO: create Notification component */}
 
-          Mark Webber reacted to your recent post My first tournament today!
-          1m ago
+        <li className="notification">
+          <img src={Avatar} alt="" />
+          <div className="notification__container">
+            <p className="notification__text">
+              <b className="notification__user">Mark Webber </b>
+              <span  className="notification__action">reacted to your recent post </span>
+              <a href="#" className="notification__post">My first tournament today!</a>
+            </p>
+            <date className="notification__date">1m ago</date>
+          </div>
+        </li>
 
           Angela Gray followed you
           5m ago
