@@ -18,8 +18,8 @@ function App() {
       <ul className="notifications">
           {/* TODO: create Notification component */}
 
-        <li className="notification">
-          <img src={Avatar} alt="" />
+        <li className="notification notification--unread">
+          <img className="notification__avatar" src={Avatar} alt="" />
           <div className="notification__container">
             <p className="notification__text">
               <b className="notification__user">Mark Webber </b>

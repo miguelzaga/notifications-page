@@ -1,0 +1,50 @@
+@use "./../01-abstracts/" as *;
+
+.notification {
+  display: flex;
+  gap: 13px;
+  border-radius: 8px;
+  padding: 16px;
+  font-size: rem(14px);
+  line-height: rem(18px);
+
+  &__avatar {
+    max-width: 39px;
+    height: fit-content;
+    border-radius: 100%;
+  }
+
+  &__text {
+    margin-bottom: 3px;
+  }
+
+  &__user {
+    color: $very-dark-grey-blue;
+    font-weight: 800;
+  }
+
+  &__post {
+    font-weight: 800;
+  }
+
+  &__date {
+    color: $grey-blue;
+  }
+
+  &--unread {
+    background-color: $snow;
+  }
+  &--unread &__text::after {
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-color: $red;
+    border-radius: 100%;
+    margin-left: 6px;
+    vertical-align: middle;
+  }
+}
+
+
+
