@@ -5,8 +5,8 @@
       "avatar": "avatar-mark-webber",
       "user": "Mark Webber",
       "action": "reacted to your recent post",
-      "date": "4m ago",
-      "message": "1m ago",
+      "date": "1m ago",
+      "message": "",
       "post": "My first tournament today!"
     },
     {
@@ -14,7 +14,7 @@
       "avatar": "avatar-angela-gray.webp",
       "user": "Angela Gray",
       "action": "followed you",
-      "date": "4m ago",
+      "date": "5m ago",
       "message": "",
       "post": ""
     },
@@ -23,7 +23,7 @@
       "avatar": "",
       "user": "Jacob Thompson",
       "action": "has joined your group",
-      "date": "0 day ago",
+      "date": "1 day ago",
       "message": "",
       "post": "Chess Club"
     },
@@ -32,7 +32,7 @@
       "avatar": "",
       "user": "Rizky Hasanuddin",
       "action": "sent you a private message",
-      "date": "4 days ago",
+      "date": "5 days ago",
       "message": "Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game.",
       "post": ""
     },
@@ -41,7 +41,7 @@
       "avatar": "",
       "user": "Kimberly Smith",
       "action": "commented on your picture",
-      "date": "0 week ago",
+      "date": "1 week ago",
       "message": "",
       "post": ""
     },
@@ -50,7 +50,7 @@
       "avatar": "",
       "user": "Nathan Peterson",
       "action": "reacted to your recent post",
-      "date": "1 weeks ago",
+      "date": "2 weeks ago",
       "message": "",
       "post": "5 end-game strategies to increase your win rate"
     },
@@ -59,7 +59,7 @@
       "avatar": "",
       "user": "Anna Kim",
       "action": "left the group",
-      "date": "1 weeks ago",
+      "date": "2 weeks ago",
       "message": "",
       "post": "Chess Club"
     }

@@ -1,5 +1,11 @@
 @use "./../01-abstracts/" as *;
 
+.notifications {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
 .notification {
   display: flex;
   gap: 13px;
@@ -29,6 +35,14 @@
 
   &__date {
     color: $grey-blue;
+    margin-bottom: 12px;
+    display: block;
+  }
+
+  &__msg {
+    border: solid 1px $very-light-grey-blue;
+    border-radius: 5px;
+    padding: 16px;
   }
 
   &--unread {

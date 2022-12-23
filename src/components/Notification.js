@@ -1,7 +1,5 @@
-import images from '../data/images.js'
-function Notification({ id, avatar, user, action, post, date }) {
-  console.log(images)
-  console.log(id)
+import images from "../data/images.js";
+function Notification({ id, avatar, user, action, post, date, message }) {
   return (
     <li className="notification notification--unread">
       <img className="notification__avatar" src={images[id]} alt="" />
@@ -14,6 +12,7 @@ function Notification({ id, avatar, user, action, post, date }) {
           </a>
         </p>
         <time className="notification__date">{date}</time>
+        {message ? <p className="notification__msg">{message}</p> : ""}
       </div>
     </li>
   );

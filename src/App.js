@@ -6,7 +6,7 @@ function App() {
   return (
     <main className="main">
       <header className="header">
-        <h1 className="header__title" class>
+        <h1 className="header__title">
           Notifications
           <b className="header__number">3</b>
         </h1>
@@ -14,7 +14,10 @@ function App() {
         <button className="header__btn">Mark all as read</button>
       </header>
       <ul className="notifications">
-        {notificationsData.data.map(function ({ id, avatar, user, action, post, date }, index) {
+        {notificationsData.data.map(function (
+          { id, avatar, user, action, post, date, message },
+          index
+        ) {
           return (
             <Notification
               id={id}
@@ -24,6 +27,7 @@ function App() {
               action={action}
               post={post}
               date={date}
+              message={message}
             />
           );
         })}
