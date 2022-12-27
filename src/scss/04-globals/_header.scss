@@ -6,22 +6,32 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 24px;
+  @include breakpoint($md-lg){
+    margin-bottom: 31px;
+  }
 
   &__title {
     font-weight: 800;
     font-size: rem(20px);
     line-height: rem(25px);
     color: $very-dark-grey-blue;
+    @include breakpoint($md-lg){
+      font-size: rem(24px);
+      line-height: rem(30px);
+    }
   }
 
   &__number {
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     margin-left: 9px;
     background-color: $blue;
     color: $white;
     border-radius: 6px;
     width: 32px;
-    text-align: center;
+    height: 25px;
+    vertical-align: middle;
     font-size: rem(16px);
   }
 
@@ -31,5 +41,9 @@
     background: 0;
     font-size: rem(14px);
     line-height: rem(18px);
+    @include breakpoint($md-lg){
+      font-size: rem(16px);
+      line-height: rem(20px);
+    }
   }
 }

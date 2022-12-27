@@ -4,6 +4,9 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
+  @include breakpoint($md-lg){
+    gap: 8px;
+  }
 }
 
 .notification {
@@ -13,11 +16,19 @@
   padding: 16px;
   font-size: rem(14px);
   line-height: rem(18px);
+  @include breakpoint($md-lg){
+    font-size: rem(16px);
+    line-height: rem(20px);
+    gap: 19px;
+  }
 
   &__avatar {
     max-width: 39px;
     height: fit-content;
     border-radius: 100%;
+    @include breakpoint($md-lg){
+      max-width: 45px;
+    }
   }
 
   &__text {
@@ -31,6 +42,7 @@
 
   &__post {
     font-weight: 800;
+    margin-left: 7px;
   }
 
   &__date {

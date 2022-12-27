@@ -6,4 +6,9 @@
   background-color: $white;
   padding: 24px 16px 29px;
   min-height: 100vh;
+  @include breakpoint(768px){
+    margin-top: 63px;
+    margin-bottom: 89px;
+    padding: 33px 30px 0;
+  }
 }

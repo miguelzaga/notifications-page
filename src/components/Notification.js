@@ -6,7 +6,7 @@ function Notification({ id, avatar, user, action, post, date, message }) {
       <div className="notification__container">
         <p className="notification__text">
           <b className="notification__user">{user} </b>
-          <span className="notification__action">{action} </span>
+          <span className="notification__action">{action}</span>
           <a href="#" className="notification__post">
             {post}
           </a>
