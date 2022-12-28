@@ -15,7 +15,7 @@ function App() {
       </header>
       <ul className="notifications">
         {notificationsData.data.map(function (
-          { id, avatar, user, action, post, date, message },
+          { id, avatar, user, action, post, date, message, image },
           index
         ) {
           return (
@@ -28,6 +28,7 @@ function App() {
               post={post}
               date={date}
               message={message}
+              image={image}
             />
           );
         })}

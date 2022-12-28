@@ -2,65 +2,50 @@
   "data": [
     {
       "id": "4",
-      "avatar": "avatar-mark-webber",
       "user": "Mark Webber",
       "action": "reacted to your recent post",
       "date": "1m ago",
-      "message": "",
       "post": "My first tournament today!"
     },
     {
       "id": "0",
-      "avatar": "avatar-angela-gray.webp",
       "user": "Angela Gray",
       "action": "followed you",
-      "date": "5m ago",
-      "message": "",
-      "post": ""
+      "date": "5m ago"
     },
     {
       "id": "2",
-      "avatar": "",
       "user": "Jacob Thompson",
       "action": "has joined your group",
       "date": "1 day ago",
-      "message": "",
       "post": "Chess Club"
     },
     {
       "id": "6",
-      "avatar": "",
       "user": "Rizky Hasanuddin",
       "action": "sent you a private message",
       "date": "5 days ago",
-      "message": "Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game.",
-      "post": ""
+      "message": "Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game."
     },
     {
       "id": "3",
-      "avatar": "",
       "user": "Kimberly Smith",
       "action": "commented on your picture",
       "date": "1 week ago",
-      "message": "",
-      "post": ""
+      "image": "chess"
     },
     {
       "id": "5",
-      "avatar": "",
       "user": "Nathan Peterson",
       "action": "reacted to your recent post",
       "date": "2 weeks ago",
-      "message": "",
       "post": "5 end-game strategies to increase your win rate"
     },
     {
       "id": "1",
-      "avatar": "",
       "user": "Anna Kim",
       "action": "left the group",
       "date": "2 weeks ago",
-      "message": "",
       "post": "Chess Club"
     }
   ]

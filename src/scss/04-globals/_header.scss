@@ -6,7 +6,7 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 24px;
-  @include breakpoint($md-lg){
+  @include breakpoint($md-lg) {
     margin-bottom: 31px;
   }
 
@@ -15,7 +15,7 @@
     font-size: rem(20px);
     line-height: rem(25px);
     color: $very-dark-grey-blue;
-    @include breakpoint($md-lg){
+    @include breakpoint($md-lg) {
       font-size: rem(24px);
       line-height: rem(30px);
     }
@@ -41,7 +41,7 @@
     background: 0;
     font-size: rem(14px);
     line-height: rem(18px);
-    @include breakpoint($md-lg){
+    @include breakpoint($md-lg) {
       font-size: rem(16px);
       line-height: rem(20px);
     }
