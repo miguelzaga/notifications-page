@@ -4,11 +4,12 @@ body {
   background-color: $snow;
 }
 
-a, button {
+a,
+button {
   text-decoration: none;
   cursor: pointer;
   color: inherit;
-  transition: ease .2s;
+  transition: ease 0.2s;
   &:hover {
     color: $blue;
   }
@@ -17,5 +18,3 @@ a, button {
     top: 2px;
   }
 }
-
-

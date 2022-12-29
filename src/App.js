@@ -3,23 +3,23 @@ import Notification from "./components/Notification.js";
 import notificationsData from "/src/data/notificationsData.json";
 
 function App() {
-  var initial  = {
-    indexes:  notificationsData.data.map((el, index) => index < 3 ),
+  var initial = {
+    indexes: notificationsData.data.map((el, index) => index < 3),
     count: undefined,
-    updateCount: function (){
-      this.count = this.indexes.reduce((acc,isUnread) => acc + isUnread ,0)
-    }
-  }
+    updateCount: function () {
+      this.count = this.indexes.reduce((acc, isUnread) => acc + isUnread, 0);
+    },
+  };
   initial.updateCount();
   var [unread, setUnread] = useState(initial);
   var [count, setCount] = useState(unread.count);
 
-  function readIndex (index){
-    unread.indexes[index] = false; 
+  function readIndex(index) {
+    unread.indexes[index] = false;
     readUpdate(unread);
   }
 
-  function readAll (){
+  function readAll() {
     unread.indexes.fill(false);
     readUpdate(unread);
   }
@@ -38,7 +38,9 @@ function App() {
           <b className="header__number">{count}</b>
         </h1>
 
-        <button onClick={readAll} className="header__btn">Mark all as read</button>
+        <button onClick={readAll} className="header__btn">
+          Mark all as read
+        </button>
       </header>
       <ul className="notifications">
         {notificationsData.data.map(function (
