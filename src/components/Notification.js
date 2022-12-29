@@ -21,7 +21,7 @@ function Notification({
           </a>
         </p>
         <time className="notification__date">{date}</time>
-        {message ? <p className="notification__msg">{message}</p> : ""}
+        {message ? <a className="notification__msg" href="#"><p>{message}</p></a> : ""}
       </div>
       {image ? (
         <img className="notification__img" src={images[image]} alt="" />

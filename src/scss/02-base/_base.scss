@@ -4,8 +4,18 @@ body {
   background-color: $snow;
 }
 
-a {
+a, button {
   text-decoration: none;
   cursor: pointer;
   color: inherit;
+  transition: ease .2s;
+  &:hover {
+    color: $blue;
+  }
+  &:active {
+    position: relative;
+    top: 2px;
+  }
 }
+
+

@@ -52,9 +52,14 @@
   }
 
   &__msg {
+    display: block;
     border: solid 1px $very-light-grey-blue;
     border-radius: 5px;
     padding: 16px;
+    &:hover {
+      background-color: $very-light-grey-blue;
+    color: $dark-grey-blue;
+    }
   }
 
   &__img {
