@@ -67,8 +67,8 @@ I need to learn about React patterns.
 
 ### Useful resources
 
-- [Array.prototype.fill()][https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/fill] - I used it on the 'mark all as read' logic
-- [How to focus on a non input element?][https://chsamii.medium.com/how-to-focus-on-a-non-input-element-96db50b36e97] - This helped me to make the li elements for the notifications to be focusable with tab so that the onBlur event would work better.
+- [Array.prototype.fill()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/fill) - I used it on the 'mark all as read' logic
+- [How to focus on a non input element?](https://chsamii.medium.com/how-to-focus-on-a-non-input-element-96db50b36e97) - This helped me to make the li elements for the notifications to be focusable with tab so that the onBlur event would work better.
 
 ## Author
 
