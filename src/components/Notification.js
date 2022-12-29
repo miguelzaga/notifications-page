@@ -8,9 +8,11 @@ function Notification({
   date,
   message,
   image,
+  unread,
+  handleRead,
 }) {
   return (
-    <li className="notification notification--unread">
+    <li tabIndex="0" className={`notification ${unread ? "notification--unread" : ""}`} onBlur={handleRead}>
       <img className="notification__avatar" src={avatars[id]} alt="" />
       <div className="notification__container">
         <p className="notification__text">
